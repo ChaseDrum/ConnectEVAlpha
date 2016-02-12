@@ -290,6 +290,7 @@
 				45BE31AC1C6D2F52009AA69D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
