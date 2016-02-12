@@ -39,9 +39,39 @@
             </objects>
             <point key="canvasLocation" x="305" y="361"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="4Vd-bc-ILg">
+            <objects>
+                <viewController id="7AG-T0-zj1" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1fJ-K8-2RH"/>
+                        <viewControllerLayoutGuide type="bottom" id="ELQ-B9-zdf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="SNa-2k-Eh7">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="wat-pC-nXM">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ChatMockUp" translatesAutoresizingMaskIntoConstraints="NO" id="hgG-iw-YFl">
+                                <rect key="frame" x="51" y="72" width="498" height="528"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ConnectEVMockUpTitle" translatesAutoresizingMaskIntoConstraints="NO" id="Stz-zQ-jdA">
+                                <rect key="frame" x="145" y="-5" width="303" height="87"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FFU-gk-x82" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1008" y="361"/>
+        </scene>
     </scenes>
     <resources>
         <image name="Background" width="2740" height="1712"/>
+        <image name="ChatMockUp" width="1002" height="1452"/>
         <image name="ConnectEVMockUpTitle" width="437" height="115"/>
         <image name="MappingMockUp" width="1990" height="1242"/>
     </resources>
