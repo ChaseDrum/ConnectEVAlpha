@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4567F6631C7563790089D6B7 /* ConvoPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4567F6621C7563790089D6B7 /* ConvoPage.swift */; };
 		45BE31991C6D2F52009AA69D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BE31981C6D2F52009AA69D /* AppDelegate.swift */; };
 		45BE319B1C6D2F52009AA69D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BE319A1C6D2F52009AA69D /* ViewController.swift */; };
 		45BE319E1C6D2F52009AA69D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45BE319C1C6D2F52009AA69D /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4567F6621C7563790089D6B7 /* ConvoPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConvoPage.swift; sourceTree = "<group>"; };
 		45BE31951C6D2F52009AA69D /* ConnectEV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConnectEV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45BE31981C6D2F52009AA69D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45BE319A1C6D2F52009AA69D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 			children = (
 				45BE31981C6D2F52009AA69D /* AppDelegate.swift */,
 				45BE319A1C6D2F52009AA69D /* ViewController.swift */,
+				4567F6621C7563790089D6B7 /* ConvoPage.swift */,
 				45BE319C1C6D2F52009AA69D /* Main.storyboard */,
 				45BE31A21C6D2F52009AA69D /* Assets.xcassets */,
 				45BE31A41C6D2F52009AA69D /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4567F6631C7563790089D6B7 /* ConvoPage.swift in Sources */,
 				45BE31A11C6D2F52009AA69D /* ConnectEV.xcdatamodeld in Sources */,
 				45BE319B1C6D2F52009AA69D /* ViewController.swift in Sources */,
 				45BE31991C6D2F52009AA69D /* AppDelegate.swift in Sources */,
